@@ -63,10 +63,6 @@ Below is an overview of the project’s structure:
 
 ## Getting Started
 
-### Prerequisites
-- **Flutter SDK:** Version X.Y.Z or later.
-- **IDE:** Android Studio, VS Code, or IntelliJ IDEA (whichever you prefer).
-
 ### Installation
 1. **Clone the repository:**
    ```bash
