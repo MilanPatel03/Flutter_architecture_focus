@@ -1,7 +1,7 @@
 # Flutter_architecture_focus
 This Flutter application exemplifies modular architecture with clear separation of concerns, unidirectional data flow, and robust testing. Built with MVVM and Provider, it leverages immutable models and a simulated data service for scalable, maintainable, and testable code.
 
-# App concept for now!
+### App concept for now!
 
 Task Manager App is a mid-level Flutter application designed with maintainability, scalability, and clarity in mind. The app lets users view, add, and delete tasks while demonstrating a clean, modular architecture that separates business logic from presentation.
 
@@ -44,3 +44,39 @@ The app divides functionality into distinct layers:
 ## Project Structure
 
 Below is an overview of the project’s structure:
+Task Manager App
+│
+├─ lib
+│   │
+│   ├─ main.dart
+│   │
+│   ├─ data
+│   │   │
+│   │   ├─ models  ──► task_model.dart
+│   │   │
+│   │   ├─ repositories
+│   │   │       ├─ task_repository.dart
+│   │   │       └─ task_repository_impl.dart
+│   │   │
+│   │   └─ services ──► task_service.dart
+│   │
+│   └─ ui
+│       │
+│       ├─ screens  ──► home_screen.dart, task_detail_screen.dart, add_task_screen.dart
+│       │
+│       └─ viewmodels ──► task_view_model.dart
+│
+└─ test ──► task_view_model_test.dart
+
+## Getting Started
+
+### Prerequisites
+- **Flutter SDK:** Version X.Y.Z or later.
+- **IDE:** Android Studio, VS Code, or IntelliJ IDEA (whichever you prefer).
+
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/task_manager_app.git
+   cd task_manager_app
+
