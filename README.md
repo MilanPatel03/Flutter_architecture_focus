@@ -44,29 +44,27 @@ The app divides functionality into distinct layers:
 ## Project Structure
 
 Below is an overview of the project’s structure:
-Task Manager App
-│
-├─ lib
-│   │
-│   ├─ main.dart
-│   │
-│   ├─ data
-│   │   │
-│   │   ├─ models  ──► task_model.dart
-│   │   │
-│   │   ├─ repositories
-│   │   │       ├─ task_repository.dart
-│   │   │       └─ task_repository_impl.dart
-│   │   │
-│   │   └─ services ──► task_service.dart
-│   │
-│   └─ ui
-│       │
-│       ├─ screens  ──► home_screen.dart, task_detail_screen.dart, add_task_screen.dart
-│       │
-│       └─ viewmodels ──► task_view_model.dart
-│
-└─ test ──► task_view_model_test.dart
+Task Manager App/
+├── lib/
+    ├── main.dart
+│   ├── data/
+        ├── models/
+│   │       └── task_model.dart
+        ├── repositories/
+│   │       ├── task_repository.dart
+        │   └── task_repository_impl.dart
+│   │   └── services/
+            └── task_service.dart
+│   └── ui/
+        ├── screens/
+│           ├── home_screen.dart
+        │   ├── task_detail_screen.dart
+│           └── add_task_screen.dart
+        └── viewmodels/
+│           └── task_view_model.dart
+└── test/
+    └── task_view_model_test.dart
+
 
 ## Getting Started
 
